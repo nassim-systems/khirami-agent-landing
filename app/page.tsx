@@ -412,46 +412,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-        {/* TESTIMONIALS */}
-        <section
-          id="testimonials"
-          className="w-full px-6 py-24 bg-[#020617] border-t border-slate-800/70"
-        >
-          <div className="max-w-6xl mx-auto text-center">
-            <p className="text-[11px] uppercase tracking-[0.25em] text-cyan-300/80">
-              Testimonials
-            </p>
-            <h2 className="mt-3 text-3xl md:text-4xl font-semibold text-slate-50">
-              What clients say
-            </h2>
-
-            <div className="grid md:grid-cols-3 gap-8 mt-12">
-              {[
-                {
-                  name: "— Placeholder",
-                  text: "“Khirami Systems delivered an autonomous workflow that saved us dozens of hours per week.”",
-                },
-                {
-                  name: "— Placeholder",
-                  text: "“The architecture-first approach changed everything. This is not prompt engineering — it's engineering.”",
-                },
-                {
-                  name: "— Placeholder",
-                  text: "“We deployed an AI agent that now handles 70% of our support tickets automatically.”",
-                },
-              ].map((item, i) => (
-                <div
-                  key={i}
-                  className="rounded-2xl border border-slate-800/80 bg-[#050816] p-6 shadow-[0_18px_40px_rgba(0,0,0,0.85)]"
-                >
-                  <p className="text-sm text-slate-300/85 italic">{item.text}</p>
-                  <p className="mt-4 text-xs text-cyan-300/80">{item.name}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
         {/* GUARANTEES */}
         <section
           id="guarantees"
